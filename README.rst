@@ -2,9 +2,8 @@ Elk Stack And Filebeats
 =======================
 
 Investigation spike with filebeats and elkstack to see how to monitor system 
-logs on Mac OSX and potentially problems.
-
-You will need to download Filebeat for your system. You can get binaries from:
+logs on Mac OSX. You will need to download Filebeat for your system. You can 
+get binaries from:
 
 - https://www.elastic.co/downloads/beats/filebeat
 
