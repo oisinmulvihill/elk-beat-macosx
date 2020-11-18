@@ -38,11 +38,11 @@ Local Set-up
 
 .. code:: 
 
-    # Decompress the filebeat binary (On OSX 10.14+ / X64)
-    bzip2 -k -d filebeat.osx.X64.bz2
-
     # run elk stack (in its own terminal)
     make up
+
+    # Link to your filebeat binary if its not in the path:
+    ln -s <path to filebeat binary> filebeat
 
     # install the indices and dashboard into kibanan (in its own terminal)
     make setup
