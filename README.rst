@@ -26,11 +26,11 @@ What I'm aiming to answer:
 
 - Get logs into Elk stack and from MacOSX
 
-    - Can I see failed login attempts?
+  - Can I see failed login attempts?
 
-    - Can I see sudo usage?
+  - Can I see sudo usage?
 
-    - Can I see software installs?
+  - Can I see software installs?
 
 
 Local Set-up
