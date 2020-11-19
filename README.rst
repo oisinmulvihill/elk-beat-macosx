@@ -13,7 +13,7 @@ checkout directory. Then you can call ``make setup`` and then ``make run``.
 
 I'm using make, docker-compose to organise and run the project locally. I 
 currently work of Mac OSX for development and use Homebrew to install what I 
-need. Your mileage may vary. 
+thanksneed. Your mileage may vary. 
 
 .. contents::
 

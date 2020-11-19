@@ -25,7 +25,7 @@ filebeat.inputs:
 
   # Paths that should be crawled and fetched. Glob based paths.
   paths:
-    #- /var/log/install.log
+    - /var/log/install.log
     - /var/log/system.log
     #- c:\programdata\elasticsearch\logs\*
 
