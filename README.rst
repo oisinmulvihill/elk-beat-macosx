@@ -25,24 +25,13 @@ What I'm aiming to answer:
 
 - Get logs into Elk stack and from MacOSX
 
-  - No. filebeats works with log file. Since Mac OSX 10.12 Apple moved to a 
-  compressed binary log system called Unified Logging. Filebeats doesn't 
-  directly support this. There are things you can hack together around using 
-  the Mac 'log stream' tool and Kibana. This talk is an excellent explanation. 
-  It is from 2017 so some of it is no longer relevant https://papers.put.as/papers/macosx/2017/macOSLogsv2017.pdf
+  - No. filebeats works with log file. Since Mac OSX 10.12 Apple moved to a compressed binary log system called Unified Logging. Filebeats doesn't directly support this. There are things you can hack together around using the Mac 'log stream' tool and Kibana. This talk is an excellent explanation. It is from 2017 so some of it is no longer relevant https://papers.put.as/papers/macosx/2017/macOSLogsv2017.pdf
 
 - Can I see failed login attempts? Can I see sudo usage? Can I see software installs?
 
-  - Apple uses https://github.com/openbsm/openbsm which is a standard amoung 
-  BSD based operating systems to manage an audit log covering these questions. 
-  Working with this requires understanding this standard and the tools that go 
-  with it. I think it would also be possible to hack together something that 
-  might work with Filebeat/Kibana but I'm not sure its worth the effort.
+  - Apple uses https://github.com/openbsm/openbsm which is a standard used on BSD based operating systems. It manages an audit log covering these questions. Working with this requires understanding this standard and the tools that go with it. I think it would also be possible to hack together something that might work with Filebeat/Kibana but I'm not sure its worth the effort.
 
-While researching this further I came across another commercial tool which may
-work. https://www.cmdsec.com/ this can put relevant security information into
-Elk. Rather than the approach of logging everything and trying to figure out 
-what is relevant. I've requested a trial and will see where I get to.
+While researching this further I came across another commercial tool which may work. https://www.cmdsec.com/ this can put relevant security information into Elk. Rather than the approach of logging everything and trying to figure out what is relevant. I've requested a trial and will see where I get to.
 
 
 Local Set-up
